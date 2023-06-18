@@ -2,48 +2,19 @@ body {
 	font-family: 'poppins', sans-serif;
     color: #1B2D4D;
     display: block;
-    margin: 350px;
+    margin: 250px;
     margin-bottom: 50px;
     margin-top: 20px;
     background-color: rgb(251, 188, 193);
 }
 
-.imaje {
+.pp {
     border-radius: 50%; 
     width: 40%; 
     height: auto;
 }
 
-.card {
-    background-color: white; 
-    border-radius: 20px; 
-    padding: 5px 50px 5px 50px; 
-    text-align: center; 
-    box-shadow: 30px px 42px -10px rgba(0,0,0,0.1);
-    margin-top: 30px;
-}
-
-.achref {
-    text-decoration: none; 
-    background-color: #ff1c5d; 
-    padding: 1em; 
-    color: white; 
-    border-radius: 10px;
-}
-
-h2 {
-    color: #ff1c5d; 
-}
-
-.achref:hover {
-    text-decoration: none; 
-    background-color: #ffffff; 
-    padding: 1em; 
-    color: #ff1c5d; 
-    border-radius: 10px;
-}
-
-.socialnw {
+.reseaux {
     opacity: 0.1;
     width: 5%;
     height: auto;
@@ -52,8 +23,8 @@ h2 {
     transition-duration: 250ms;
 }
 
-.socialnw:hover {
-    opacity: 100;
+.reseaux:hover {
+    opacity: 1;
     size: 2cm;
     width: 5%;
     height: auto;
@@ -62,21 +33,16 @@ h2 {
     transform: scale(1.2)
 }
 
-.justify {
-   text-align: justify;
-}
-
 .newsletter-form {
-    background-color: #f7f7f7;
-    padding: 20px;
+    background-color: #ffffff;
+    padding: 5px 0px 30px 0px;
     border-radius: 5px;
     text-align: center;
-    margin: 50px auto;
-    max-width: 500px;
+    max-width: auto;
   }
   
   .newsletter-form h3 {
-    color: #0f0f0f;
+    color: #ff1c5d;
     font-size: 24px;
     margin-bottom: 20px;
   }
@@ -84,18 +50,103 @@ h2 {
   .newsletter-form input[type="email"] {
     padding: 10px;
     border-radius: 5px;
+    background-color: #f2f2f2;
     border: none;
     width: 60%;
     margin-right: 10px;
   }
   
   .newsletter-form button {
-    background-color: #FE9CD5;
+    background-color: #ff1c5d;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
-    border-radius: 30px;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
   }
   
+
+  .containall {
+    text-align: center;
+    color: white;
+    background-color: #f595b2;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}  
+
+.carte-one {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 20px 0px 0px;
+    text-align: center;
+    box-shadow: 0px 0px 42px -10px rgba(0,0,0,0.1);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.carte-p1-left {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center; 
+    margin-top: 30px;
+    color: #ff1c5d;
+}
+
+.carte-p1-right {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ff1c5d;
+}
+
+.desc {
+    font-style: italic;
+}  
+
+.carte-two {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+    text-align: left;
+    box-shadow: 0px 0px 42px -10px rgba(0,0,0,0.1);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+.desc-p-two {
+    font-style: italic;
+}  
+
+.cellules {
+    border-spacing: 25px;
+    color: #ff1c5d;
+}
+
+.cellules-gras {
+    font-weight: 600;
+}
+
+.carte-three {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px;
+    text-align: left;
+    box-shadow: 0px 0px 42px -10px rgba(0,0,0,0.1);
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.carte-four {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 0px 15px 0px; 
+    box-shadow: 0px 0px 42px -10px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    text-align: center; 
+}
